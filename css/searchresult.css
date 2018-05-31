@@ -1,0 +1,62 @@
+.headerSearch {
+    border-bottom: 1px solid #ddd;
+}
+.headerSearchTitle {
+    margin-right: 135px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: MuseoSans;
+}
+.headerSearchSub {
+    position: relative;
+    padding: 0 16px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #727272;
+    text-align: left;
+}
+.headerSearchSub:first-child {
+    padding-left: 0;
+}
+.headerSearchSub:after {
+    position: absolute;
+    right: 0;
+    content: "|";
+    color: #dedede;
+}
+.resultTableHeader{
+    padding: 15px 75px;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #727272;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.resultLogo {
+    display: inline-block;
+    max-width: 200px;
+    max-height: 60px;
+    margin-bottom: 5px;
+    /* margin-left: 30px; */
+}
+.result {
+    display: table-cell;
+}
+.centered {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btnChon {
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 14px;
+    padding: 8px 20px;
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+    background-color: #f96d01;
+    color: #fff;
+    border: none;
+}
